@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <section class="log__container">
+        <h1>CONSULTORIO MEDICO</h1>
+      <div class="log__box">
+        <!-- <i class="fa-solid fa-user"></i> -->
+        <img src="./img/OQ6UTW0.jpg" alt="Doctor animado" />
+        <div class="log__info">
+          <form action="">
+            <label for="username">
+              Ingrese su Correo Electronico
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="correoelectronico@gmail.com"
+              />
+            </label>
+            <label for="contrasena">
+              Ingrese su contraseñas
+              <input
+                type="password"
+                name="contrasena"
+                id="contrasena"
+                placeholder="********"
+              />
+            </label>
+            <button type="submit" id="button" onclick="validarUsuario()">Ingresar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://kit.fontawesome.com/70436840f7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./Js/__login.js"></script>
+  </body>
+</html>

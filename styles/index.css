@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=Patua+One&family=Roboto:wght@700&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: rgb(218, 199, 212);
+  background: linear-gradient(90deg, rgb(218, 199, 212) 33%, rgb(67, 202, 215) 100%);
+}
+
+.log__container {
+  margin-top: 15vh;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.log__box {
+  background-color: rgba(47, 79, 79, 0.6039215686);
+  display: flex;
+  padding: 8rem 8rem;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.log__box img {
+  max-width: 320px;
+  border-radius: 0.5rem;
+  box-shadow: rgb(78, 78, 78) 0px 3px 8px 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+/* .log__box i {
+    font-size: 5rem;
+    color: white;
+    padding: 4.5rem;
+    padding-top: 6rem;
+    border-radius: 1rem;
+    box-shadow: rgb(78, 78, 78) 0px 3px 8px 0px;
+} */
+.log__info {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.log__info input {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  border: none;
+  text-align: center;
+}
+
+.log__info label {
+  font-family: "Patua One", cursive;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.log__info input::-moz-placeholder {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.log__info input::placeholder {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 1.5rem 5rem;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.716);
+  border: none;
+}
+
+button:hover {
+  background-color: #CBE4DE;
+  transition: 170ms;
+  cursor: pointer;
+}/*# sourceMappingURL=index.css.map */
