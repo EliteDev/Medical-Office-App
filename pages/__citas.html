@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../styles/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav__hero" id="nav__js">
+        <ul class="nav__ul">
+          <li><a href="./__citas.html">Citas</a></li>
+          <li><a href="./__historial.html">Historial Clinico</a></li>
+          <li><a href="./__inventario.html">Inventario</a></li>
+          <li><a href="./__recetas.html">Recetas</a></li>
+          <li>
+            <a href="../index.html"
+              ><button type="submit" id="nav__button">Cerrar Sesion</button></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero__container">
+        <div class="hero__boxContainer">
+          <h2>AGENDA</h2>
+          <div class="form__data">
+            <label for="">Nombre<input type="text" name="name" id="name" placeholder="Nombre" /></label>
+            <label for="">Fecha y Hora<input type="text" name="date" id="date" placeholder="Fecha y hora"/></label>
+            <label for="">Celular<input type="text" name="number" id="number" placeholder="Celular"/></label>
+            <label for="">Familiar<input type="text" name="nameFamily" id="nameFamily" placeholder="Mamá/Papá"/></label>
+            <button class="hero__btn">Agregar Tarea</button>
+            <div class="list__data">
+              <div class="data">
+                <h3>Nombre</h3>
+                <p>Numero de Celular</p>
+                <p>Fecha y hora</p>
+                <p>Papá o Mamá</p>
+                <span class="material__icons">delete_forever</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

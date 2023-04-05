@@ -1,0 +1,53 @@
+.hero__container {
+  margin-top: 3rem;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+}
+.hero__boxContainer {
+  background-color: $color-primary-op;
+  border-radius: 1rem;
+}
+.hero__boxContainer h2 {
+  font-family: $font-for;
+  color: white;
+  font-size: 3rem;
+  margin: 1rem;
+  text-align: center;
+}
+.form__data{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+.form__data label {
+  font-family: $font-primary;
+  color: white;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  flex-direction: column;
+}
+.form__data input {
+  border: none;
+  border-radius: 0.2rem;
+  margin: 1rem;
+  padding: 1rem;
+  flex-direction: row;
+}
+.hero__btn {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-top: 0rem;
+  border-radius: 0.5rem;
+  font-family: $font-third;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.716);
+  border: none;
+  flex-direction: column;
+}
+.data{
+    display: flex;
+    flex-direction: column;
+}
